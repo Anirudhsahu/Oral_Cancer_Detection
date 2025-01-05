@@ -1,5 +1,27 @@
-# Oral_Cancer_Prediction
-This model helps to predict if a person has Oral Cancer or not based on image. It uses Deep Learning models
-In recent years, deep learning has achieved great success in many fields, such as computer vision and natural language processing. Compared to traditional machine learning methods, deep learning has a strong learning ability and can make better use of data sets for feature extraction. Because of its practicability, deep learning becomes more and more popular for many researchers to do research works. In this paper, we mainly introduce some advanced neural networks of deep learning and their applications. Besides, we also discuss the limitations and prospects of deep learning.
-Oral cancer is one of the larger cancer types worldwide . However,  it does  not have a screening program unlike some other cancer types. Without a screening program it is hard to discover the cancer in time. Since it is crucial to discover  oral cancer in time, most people who are affected by it suffer either by morbidity or mortality[14].
-Convolutional Neural Networks (CNN) is a type of deep learning network constructed to mimic the animal visual cortex . CNNs have been proven to produce high accuracy for image classification tasks and has won the ImageNet Large Scale Visual Recognition Challenge (ILSVCR) the last years . The architecture is built up by layers which creates a volume with a width, height and depth. The layers consists of neurons with learn able parameters. During the training these parameters are updated with the purpose of increasing the performance of the networks predictions. When training a CNN the neurons starts to identify different features in the image which in the end results in the networks prediction . The biggest part of CNNs are the Convolutional layers. In these layers the input is convolved with the neurons in the layer to produce an output. The capability of classifying images in a high rate can be applied to many different fields.
+## Oral Cancer Detection Using Deep Learning
+Overview
+This repository contains a deep learning model designed to predict oral cancer from images. Leveraging advanced Convolutional Neural Networks (CNNs), this project aims to address the lack of screening programs for oral cancer by providing an effective tool for early detection.
+
+## Introduction
+Deep learning has revolutionized fields such as computer vision and NLP due to its powerful feature extraction capabilities. This project applies these advancements to healthcare, specifically for the early detection of oral cancer, which is crucial due to the high morbidity and mortality associated with late diagnoses. Our CNN models are fine-tuned to classify oral cancer images with high accuracy, contributing significantly to potential screening processes.
+
+## Project Highlights
+Advanced CNN Architectures: Utilizes state-of-the-art neural networks that have excelled in major challenges like the ImageNet LSVRC.
+High Accuracy Classification: Designed to achieve high performance in image-based detection tasks.
+
+Impactful Healthcare Application: The urgent need for early oral cancer detection tools is addressed.
+
+## Tech Stack
+Python: For overall programming.
+
+TensorFlow/Keras: For building and training the deep learning models.
+
+OpenCV: For image processing tasks.
+
+NumPy/Pandas: For data manipulation.
+
+## Model Architecture
+The CNN architecture used in this project mimics the animal visual cortex, featuring multiple layers that learn to identify distinctive features in images that are indicative of oral cancer. The convolutional layers, which are central to this architecture, convolve input with learned kernels, producing feature maps that enhance the model's predictive accuracy.
+
+## Contributing
+Contributions to this project are welcome. Please fork the repository and submit a pull request with your proposed changes.
